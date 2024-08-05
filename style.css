@@ -1,0 +1,50 @@
+/* place-kitty.css */
+
+/* Set up the parent element to establish a positioning context */
+.parent-element {
+    position: relative;
+    width: 500px; /* Adjust as needed */
+    height: 500px; /* Adjust as needed */
+    border: 1px solid #000; /* Optional: for visual reference */
+}
+
+/* Base styles for the kittens */
+.kitty {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+}
+
+/* Position the first kitten */
+.kitty1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+/* Position the second kitten */
+.kitty2 {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+/* Position the third kitten */
+.kitty3 {
+    position: absolute;
+    top: 250px;
+    left: 250px;
+}
+
+/* Position the fourth kitten */
+.kitty4 {
+    position: absolute;
+    top: 350px;
+    left: 50px;
+}
+
+/* Position the fifth kitten */
+.kitty5 {
+    position: absolute;
+    top: 50px;
+    left: 350px;
+}
